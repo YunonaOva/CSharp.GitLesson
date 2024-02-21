@@ -1,0 +1,14 @@
+D:\Dev\CSharpEducation.Practice\Task13\bin\Debug\net8.0\Task13.exe
+D:\Dev\CSharpEducation.Practice\Task13\bin\Debug\net8.0\Task13.deps.json
+D:\Dev\CSharpEducation.Practice\Task13\bin\Debug\net8.0\Task13.runtimeconfig.json
+D:\Dev\CSharpEducation.Practice\Task13\bin\Debug\net8.0\Task13.dll
+D:\Dev\CSharpEducation.Practice\Task13\bin\Debug\net8.0\Task13.pdb
+D:\Dev\CSharpEducation.Practice\Task13\obj\Debug\net8.0\Task13.GeneratedMSBuildEditorConfig.editorconfig
+D:\Dev\CSharpEducation.Practice\Task13\obj\Debug\net8.0\Task13.AssemblyInfoInputs.cache
+D:\Dev\CSharpEducation.Practice\Task13\obj\Debug\net8.0\Task13.AssemblyInfo.cs
+D:\Dev\CSharpEducation.Practice\Task13\obj\Debug\net8.0\Task13.csproj.CoreCompileInputs.cache
+D:\Dev\CSharpEducation.Practice\Task13\obj\Debug\net8.0\Task13.dll
+D:\Dev\CSharpEducation.Practice\Task13\obj\Debug\net8.0\refint\Task13.dll
+D:\Dev\CSharpEducation.Practice\Task13\obj\Debug\net8.0\Task13.pdb
+D:\Dev\CSharpEducation.Practice\Task13\obj\Debug\net8.0\Task13.genruntimeconfig.cache
+D:\Dev\CSharpEducation.Practice\Task13\obj\Debug\net8.0\ref\Task13.dll

@@ -1,0 +1,14 @@
+D:\Dev\CSharpEducation.Practice\Task8\obj\Debug\net8.0\Task8.GeneratedMSBuildEditorConfig.editorconfig
+D:\Dev\CSharpEducation.Practice\Task8\obj\Debug\net8.0\Task8.AssemblyInfoInputs.cache
+D:\Dev\CSharpEducation.Practice\Task8\obj\Debug\net8.0\Task8.AssemblyInfo.cs
+D:\Dev\CSharpEducation.Practice\Task8\obj\Debug\net8.0\Task8.csproj.CoreCompileInputs.cache
+D:\Dev\CSharpEducation.Practice\Task8\bin\Debug\net8.0\Task8.exe
+D:\Dev\CSharpEducation.Practice\Task8\bin\Debug\net8.0\Task8.deps.json
+D:\Dev\CSharpEducation.Practice\Task8\bin\Debug\net8.0\Task8.runtimeconfig.json
+D:\Dev\CSharpEducation.Practice\Task8\bin\Debug\net8.0\Task8.dll
+D:\Dev\CSharpEducation.Practice\Task8\bin\Debug\net8.0\Task8.pdb
+D:\Dev\CSharpEducation.Practice\Task8\obj\Debug\net8.0\Task8.dll
+D:\Dev\CSharpEducation.Practice\Task8\obj\Debug\net8.0\refint\Task8.dll
+D:\Dev\CSharpEducation.Practice\Task8\obj\Debug\net8.0\Task8.pdb
+D:\Dev\CSharpEducation.Practice\Task8\obj\Debug\net8.0\Task8.genruntimeconfig.cache
+D:\Dev\CSharpEducation.Practice\Task8\obj\Debug\net8.0\ref\Task8.dll
