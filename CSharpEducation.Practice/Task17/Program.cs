@@ -1,5 +1,4 @@
 ﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
 
 /* 18. Создать метод GetArray, который возвращает массив целых чисел и не принимает аргументов. 
 Реализовывать метод не нужно, тело должно остаться пустым, но код должен компилироваться. 
@@ -9,11 +8,23 @@ class program
 {
 public static void Main(string[] args)
 {
-    GetArray();
+    const int N = 10;
+    var array = GetArray(N);
+    for (int i = 1; i < N; i++)
+    {
+        array[i] = i;
+    }
+    for (int i = 0; i < N; i++)
+    {
+        Console.Write(i);
+        if (i < N - 1)
+            Console.Write(", ");
+    }
+    Console.WriteLine();
 }
 
-static int GetArray()
+public static int[] GetArray(int n)
 {
-    return default;
+    return new int[n];
 }
 }
