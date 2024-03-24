@@ -21,6 +21,7 @@ public static void Main(string[] args)
             Console.Write(", ");
     }
     Console.WriteLine();
+    Console.ReadLine();
 }
 
 public static int[] GetArray(int n)

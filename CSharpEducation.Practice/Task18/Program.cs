@@ -11,11 +11,13 @@ class program
 {
 public static void Main(string[] args)
 {
-int a = 100;
+int a = 50;
 int b = 200;
 
-var sum = Sum(a >= 100 ? a : 0, b);
+var sum = Sum(a, b);
+                                 //var sum = Sum (a >= 100 ? a : 0, b);
 Console.WriteLine(sum);
+Console.ReadLine();
 }
 
 public static int Sum(int x, int y)
