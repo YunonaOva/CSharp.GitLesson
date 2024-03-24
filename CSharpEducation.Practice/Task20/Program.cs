@@ -36,6 +36,9 @@ namespace Task20
             Poisk(study, name1);
             Console.WriteLine(Poisk(study, name1));
 
+            ClearStudent(ref study);
+
+           
 
             Console.ReadLine();
 
@@ -104,5 +107,23 @@ namespace Task20
 
 
         }
+
+        // 25 e. Напишите метод, который будет очищать список студентов.
+
+        public static void ClearStudent(ref string[] array)
+        {
+            // Устанавливаем все элементы массива в null
+            for (int i = 0; i < array.Length; i++)
+            {
+                array[i] = null;
+            }
+
+            Console.WriteLine("Список студентов был очищен.");
+        }
+
+
+
+
+
     }
 }
