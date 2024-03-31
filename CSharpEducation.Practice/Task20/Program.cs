@@ -16,29 +16,11 @@ namespace Task20
             }
 
             Console.WriteLine();
+            Console.WriteLine("Выбирите нужную цифру из списка: ");
 
-            Console.WriteLine("Список имен студентов: ");
+            int action = int.Parse(Console.ReadLine());
 
-            SpisokStudy(study);
-
-            Console.WriteLine();
-
-            Console.WriteLine("Введите имя нового студента");
-            string newstudy = Console.ReadLine();
-
-            Console.WriteLine("Список имен с новым студентом: ");
-
-            Insert(ref study, newstudy, 2);
-
-            Console.WriteLine("Проверяем наличие студента в списке: ");
-
-            string name1 = "Аня";
-            Poisk(study, name1);
-            Console.WriteLine(Poisk(study, name1));
-
-            ClearStudent(ref study);
-
-           
+            Menu(action);
 
             Console.ReadLine();
 
@@ -121,9 +103,59 @@ namespace Task20
             Console.WriteLine("Список студентов был очищен.");
         }
 
+        /* 25 f. ** В методе Main напишите программу, которая бы выводила пользователю меню. Пример на картинке. 
+         * Когда пользователь вводит цифру в консоль, то будет срабатывать определённая команда и вызываться определённый метод, реализованный в заданиях выше. 
+         * Метод по удалению конкретного студента из списка реализуйте дополнительно.  */
 
+        public static void Menu(int y)
+        {
+            Console.WriteLine("Список");
+            Console.WriteLine();
+            Console.WriteLine("1. Добавить студента");
+            Console.WriteLine("2. Показать всех студентов");
+            Console.WriteLine("3. Проверка студента в списке");
+            Console.WriteLine("4. Очистить список");
+            Console.WriteLine("5. Выход");
 
+            int number = int.Parse(Console.ReadLine());
 
+            if (number == 1)
+            {
+                Console.WriteLine();
 
+                Console.WriteLine("Введите имя нового студента");
+                string newstudy = Console.ReadLine();
+                Console.WriteLine("Список имен с новым студентом: ");
+
+                Insert(ref study, newstudy, 2);
+            }
+
+            else if (number == 2)
+            {
+                Console.WriteLine();
+
+                Console.WriteLine("Список имен студентов: ");
+
+                SpisokStudy(study);
+            }
+            else if (number == 3)
+            {
+                Console.WriteLine("Проверяем наличие студента в списке: ");
+
+                string name1 = "Аня";
+                Poisk(study, name1);
+                Console.WriteLine(Poisk(study, name1));
+            }
+            else if (number == 4)
+            {
+                ClearStudent(ref study);
+
+            }
+            else
+            {
+                Console.WriteLine("Программа закрыта.");
+            }
+
+        }
     }
 }
