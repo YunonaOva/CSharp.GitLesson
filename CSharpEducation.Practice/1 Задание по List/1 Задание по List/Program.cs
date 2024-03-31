@@ -4,7 +4,7 @@ namespace _1_Задание_по_List
 {
     internal class Program
 
-        // b) В Program.Main создайте список и студентов.
+    // b) В Program.Main создайте список и студентов.
 
     {
         static void Main(string[] args)
@@ -33,13 +33,35 @@ namespace _1_Задание_по_List
                     Console.Write("Введите возраст студента: ");
                     int age = int.Parse(Console.ReadLine());
 
-                    SpisokStudent.Add(new Student (name, age));
+                    SpisokStudent.Add(new Student(name, age));
 
                     Console.WriteLine();
                 }
                 else if (p_menu == 2)
                 {
-                    Console.WriteLine("Выбрали 2.");
+                    if (SpisokStudent.Count == 0)
+                    {
+                        Console.WriteLine("Список студентов пуст.");
+                    }
+                    else
+                    {
+                        Print(SpisokStudent);
+                    }
+                    Console.WriteLine();
+
+                    Console.Write("Выберите студента, чтобы удалить: ");
+
+                    string delet_name = Console.ReadLine();
+
+                    for (int i = 0; i < SpisokStudent.Count; i++)
+                    {
+                        if (SpisokStudent[i].name == delet_name)
+                        {
+                            SpisokStudent.RemoveAt(i);
+                        }
+                    }
+
+
                     Console.WriteLine();
                 }
                 else if (p_menu == 3)
@@ -56,12 +78,12 @@ namespace _1_Задание_по_List
                 }
                 else
                     Console.WriteLine("Введите еще раз пункт из меню.");
-                    Console.WriteLine();
+                Console.WriteLine();
 
             }
             while (p_menu != 0);
 
-          
+
         }
         private static void Print(List<Student> array)
         {
